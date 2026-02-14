@@ -1,5 +1,4 @@
-import cv2
-import numpy as np
+
 
 yakala = cv2.VideoCapture(0)
 
@@ -9,3 +8,4 @@ while True :
     cv2.imshow("ben", kare )
     a = cv2.waitKey(1)
 
+şaşkın malii

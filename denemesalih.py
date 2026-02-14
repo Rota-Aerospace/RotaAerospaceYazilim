@@ -1,5 +1,4 @@
-import cv2
-import numpy as np
+
 
 yakala = cv2.VideoCapture(0)
 

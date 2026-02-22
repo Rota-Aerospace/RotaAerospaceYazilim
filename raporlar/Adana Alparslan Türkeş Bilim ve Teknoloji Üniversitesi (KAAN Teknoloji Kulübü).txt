@@ -8,7 +8,7 @@ Pil:?
 
 Kullanılan Yazılımlar:ArduPilot,
 
-Veri Setleri:?
+Veri Setleri:COCO
 
 Görüntü İşleme:Hailo-8 yapay zeka tarafından kullanılan YOLOv11
 

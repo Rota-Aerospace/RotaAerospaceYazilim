@@ -12,7 +12,7 @@ Veri Setleri:?
 
 Görüntü İşleme:fakat maskeleyip işleme sokmuşlar YOLOv11
 
-Kamera: SIYI kamera
+Kamera: ?
 
 Uçuş Kartı: Orange Cube+
 

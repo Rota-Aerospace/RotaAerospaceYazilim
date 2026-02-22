@@ -1,0 +1,24 @@
+Drone
+
+Motorlar: T-Motor MN5008,Master Airscrew 3MR serisi (13x6.5") 3 kanatlı pervane
+
+ESC: Talon 40A ESC
+
+Pil: 2xKAVAN 5S1P 4700 mAh
+
+Kullanılan Yazılımlar: GraundContolSystem,MAVLink,ArduPilot
+
+Veri Setleri:?
+
+Görüntü İşleme:Kendi hazırladıkalrı Python dilinde yazılmış ve NumPy ve Tkinter gibi python scriptleriyle vlc playerde canlı oynatım yapmış ve 
+görev sıralamasını gelen görünülere göre yer kontrol istsyonundaki kişi yapılıp yapılammasına akrar vermiştir.
+
+Kamera: SIYI kamera
+
+Uçuş Kartı: Orange Cube+
+
+Simulasyon: "Zelenáč" adı verilen özel bir maket drone Mission Planner 
+
+Telemetri: Herelink
+
+

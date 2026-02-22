@@ -1,0 +1,25 @@
+drone x
+
+Motorlar:4xbrushless DC motor,,17x6,5 pervanelerle
+
+ESC: 4x ESC ?
+
+Pil:?
+
+Kullanılan Yazılımlar:ArduPilot,
+
+Veri Setleri:?
+
+Görüntü İşleme:Hailo-8 yapay zeka tarafından kullanılan YOLOv11
+
+Kamera: SIYI kamera
+
+Uçuş Kartı: Orange Cube+
+
+Görev PC: Raspberry Pi 5
+
+Simulasyon: ANSYS
+
+Haritalandırma: OpenDroneMap
+
+

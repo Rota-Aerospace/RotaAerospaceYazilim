@@ -1,0 +1,19 @@
+Istanbul University-Cerrahpasa
+
+drone 
+
+
+uçuş kartı olarak Orange cube kullanmışlar.
+4 adet Hobbywing X8 motor kullanmışlar.
+2 adet seri bağlanmış 6s 40 ah lipo kullanmışlar (40 dk uçuyormuş)
+bilgisayar belitmemişler.
+
+nesne tespiti için
+
+python ve opencv kullandık demişler herhangi bir şey belirtmemişler.
+galibe bunlar bir geometrik şekil gibi tanıtıyorlar tam olarak anlamadım ama kendi kendilerine bir model eğitiyorlar yolo gibi birşey kullanmamışlar.
+
+ardupilot yazılımını kullanmışlar.
+mission planner kullanmışlar.
+
+simülasyonlarını gazeboda yapıp uçağa komut vermek için ros sistemini kullanmışlar.

@@ -1,0 +1,17 @@
+King Abdulaziz University TDR
+
+4 motorlu drone 
+
+t motor u 8 kullanmışar 
+
+kamera SIYI A8 mını diye birşey kullanımşar.
+
+uçuş kartı olarak orange cube 
+
+bilgisayar olarak ise nvidia jetson orin nano super kullanmışlar.
+
+nesne tanımak için yolo v8 kullanmışlar.
+
+tam uçuş öncesi testler için gazeboda test yapmışlar 
+
+6 adet 100wh lipo kullanmışlar.

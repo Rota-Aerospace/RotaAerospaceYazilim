@@ -1,0 +1,25 @@
+AmadorUAVs TDR
+
+drone
+
+uçuş kartı olarak Holybro Pixhawk 6x kullanmışlar(Bu kartı, çift yedekli işlemcisi ve hata toleransı için seçmişler.)
+
+eşlikçi bilgisayar olarakta nvidia jetson orin nx 16 gb ram kullanmışlar.
+
+zubax myxa A0 bir esc kullanmışlar.
+
+t-motor MN601-S kullanmışlar(Verimlilik ve tork dengesi için tercih edilmiş.)
+
+kamera olarakta Allied Vision Alvium 1800 U-2460 (Sony IMX540 sensör)
+(özelliği sayesinde hareket ederken görüntü kayması yapmıyormuş.)
+
+px4 yazılımı kullanmışlar.
+Yolo world kullanmışlar.(bu modeli seçme sebepleri model çalışırken kendi kendine sizin tarif ettiğiniz birşeyi ilk defa görse onu tanıyorumuş.)
+
+iha yı mavsdk ile yönetmişler.
+Qgroundcontrol kullanmışlar.
+mavproxy,opencv ve mavsdk gibi kütüphaneleri kullanmışlar.
+
+eğer yolo ile bir nesne tanırsa tek kordinatla değil 50 farklı tespit yapıp bu noktları dbscan ile kümeleyip en yoğun noktaya hareket ediyormuş.
+
+

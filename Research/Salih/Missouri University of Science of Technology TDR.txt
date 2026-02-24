@@ -1,0 +1,21 @@
+Missouri University of Science of Technology TDR
+
+drone
+
+orange cube kullanmışlar.
+
+
+t motor kullanmışlar ama model belitrilmemiş.
+
+bilgisyar olarak yer kontrol istasyonunu kullanmışlar.
+
+nesne tespiti için yolov9 kullanmışar(model yer kontrol istasyonunda çalıştığı için işlem gücü çok yüksektir.)
+
+drone kit python kullanarak iha ya otonom görev uçuşu yaptırmışlar.
+ 
+yazılım olarak ardupilot kullanmışlar.
+yer kontrol istasyonu olarakta mission planner kullanmışlar.
+
+10 adet Li-Ion batarya kullanmışlar(45 dakika uçuş süresi varmış)
+
+HERELİNK diye birşey kullanarak iletişim kurmuşlar.

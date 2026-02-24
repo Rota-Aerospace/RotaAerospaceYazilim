@@ -1,0 +1,14 @@
+University of Maryland, Baltimore County
+
+Sabit kanat
+
+2.4 metre kanat açıklaağında bir sabit kanat yapmışlar 
+
+MatekSys H743-WLITE bir uçuş bilgisayarı kullanmışlar
+
+eşlikçi bilgisayar olarak şhaya herhangi birşey eklememişler sadece yer kontrol istasyonundan kontrol sağlamışlar
+uçuş yazızlımı olarak ardu pilot olarak çalışıyormuş kart.
+
+görüntü işleme için spesifik birşey belirtmemişler kendi bilgisayarları üstünden yapıyolarmış rapora yazmamışlar.
+
+çevredeki uçaklardan kaçmak için esp tabanlı bir sistem kurmuşlar havadaki uçakların sinyalini algılayarak onların yerini tespit ediyormuş.

@@ -1,0 +1,27 @@
+Indian Institute of Technology, Bombay (IITB) TDR 
+
+DRONE
+
+15 Olası nesne tanıtmışlar.
+ Arducam IMX477 marka kamera kullanmışlar.
+ Bu kamera, yerleşik işleme modülü ile arayüzlüdür ve uçuş operasyonları sırasında
+istikrarlı görüntü kalitesini korumak için kalibre edilmiştir.
+
+bilgisayar olarak ise Nvidia jetson orin nano kullanmışlar.
+
+YOLO V11 KULLANARAK NESNE TESPİTİ YAPMIŞLAR.
+FAKAT VERİ SETİNİ COCO DAN ALIP ÜSTÜNE KENDİLERİ EKLEME YAPMIŞLAR.
+FAKAT EKLEMEYİ NEREDEN YAPTIKLARINI BELİRTMEMİŞLER YANİ ROBOFLOW KULLANMAMIŞTA OLABİLİRLER.
+
+ORANGE CUBE KULLANMIŞLAR.
+
+RAPORDA DİKKATİMİ ÇEKEN BİRŞEY OLDU KENDİLERİNE 5G BİR WİWİ HATTI KURMUŞLAR VE BU HAT ÜZERİNDEN ÇOK HIZLI BİR ŞEKİLDE TELEMTRİ SAĞLAMIŞLAR AMA YANINDA DA YEDEK BİR TELEMETRİ MODÜLÜ KULLANMIŞLAR
+
+(MODEM KULLANMAMLARININ SEBEBİ YOLOV11 DEN GELEN GÖRÜNTÜ EM ÇOK YÜKSEK ÇÖZÜNÜRLÜKLÜ HEMDE YÜKSEK FPSLİ GELMESİYMİŞ.)
+
+Gazebo kullanmışlar fakat herhangi bir şekilde bir Sıtl belirtmemişler.
+ve mission planer gibi birşey den de bahsetmemişler.
+
+önce bütün sistemi teker teker kontrol etmişler.
+ardından gazboda test etmişler
+sonra tam uçuş yapmışlar.

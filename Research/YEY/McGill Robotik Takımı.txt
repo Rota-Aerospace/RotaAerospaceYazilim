@@ -1,0 +1,25 @@
+Vtol
+ 
+Dikeyler için:4x T-motor V506 260KV 12s motor /p17*5.8 pervane
+
+Yatay için: 1x AT5220A 20-25C 220 KV /T16*8 pervane
+
+ESC: Flame 12S V2.0 ESC
+
+Kanat: NACA 8412  110,2 inç açıklık 5 derece hücüm açısı
+
+Kuyruk: H 
+
+Pil:6x 6s 4500mAh Tattu 
+
+Kullanılan Yazılımlar: QGraundSystem,Ros2,MAVLink,PX4
+
+Görüntü İşleme:YOLOv8
+
+Kamera: Raspberry Pi High kamera
+
+Uçuş Kartı: CUAV x6+
+
+Görev PC: Jetson Orin Nano
+
+Simulasyon: Gazebo Classic, eCalc

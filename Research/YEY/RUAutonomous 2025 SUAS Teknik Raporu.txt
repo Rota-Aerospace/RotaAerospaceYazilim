@@ -1,0 +1,23 @@
+Drone
+
+Motorlar: T-Motor fakat belirtilmemiş,
+
+ESC: bilgi yok
+
+Pil:bilgi yk
+
+Kullanılan Yazılımlar: QGraundSystem,MAVLink,ArduPilot
+
+Veri Setleri: VisDrone ve COCO
+
+Görüntü İşleme:YOLOv8
+
+Kamera: ArduCam 12MP
+
+Görev PC: Raspberry Pi 5
+
+Uçuş Kartı: Pixhawk 6C
+
+Simulasyon: ArduPilotSITL, eCalc
+
+(ROS kullanılmamış)

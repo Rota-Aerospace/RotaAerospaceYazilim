@@ -1,0 +1,27 @@
+drone 
+
+Motorlar:V605,17x6,22.7 inç pervane
+
+ESC: Talon 40A ESC
+
+Pil: 12S LiPo
+
+Kullanılan Yazılımlar: QGroundControl,MAVLink
+
+Veri Setleri:?
+
+Görüntü İşleme:fakat maskeleyip işleme sokmuşlar YOLOv11
+
+Kamera: ?
+
+Uçuş Kartı: Orange Cube+
+
+Görev PC: NVIDIA Jetson Orin NX
+
+Simulasyon: Gazebo Classic, PX4_SITL,ANSYS
+
+Telemetri: SIYI MK32  HM30
+
+Haritalandırma: OpenDroneMap
+
+(gimbılı daha mantılı bulmuşlar)

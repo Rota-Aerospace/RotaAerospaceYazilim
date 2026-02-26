@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['MOUSE']
+
+roboflow:
+  workspace: salhs-software-area
+  project: new-mouse-s8um3
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/salhs-software-area/new-mouse-s8um3/dataset/2

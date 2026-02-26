@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Eğitilmiş modelini yükle
-model = YOLO("/home/salih/Masaüstü/yolo/runs/detect/yolov11_sonuclar/egitim12/weights/best.pt")
+model = YOLO("/home/salih/Masaüstü/yolo_attempt_1/best.pt")
 
 # Webcam'i aç
 cap = cv2.VideoCapture(0)

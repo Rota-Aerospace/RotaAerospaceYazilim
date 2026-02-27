@@ -1,0 +1,30 @@
+    GPS yani uydu tarafıdnan alınamayan konum verisinin cihazın kendisinin oluşturmasıdır diyebiliriz.
+Başlıca bu yöntemler şunlardır:
+    
+    1.IMU
+        Cihaz IMU sensörleri içerisindeki ivme ölçer ve jiroskop sayesinde kendinin ne kadar hareket ettiğini hesaplamaya 
+        çalışır. Fakat bu sistem tek başına yeterli olmaz, bir süre sonra kaymalar(doğruluğu azalmaya başlayan veriler) oluşur.
+    
+    2.Visual Odometry
+        Türkçe anlamı görsel odometri olan bu kavram cihazın konumunu üzerindeki kameradan gelen görüntüde bir noktayı referans seçip o 
+        noktanın hareketini takip ederek konumunu hesaplamaya çalışmasıdır. Fakat bu yöntem de tek başına yeterli olmaz, görüntüdeki 
+        noktaların hareketiyle cihazın hareketi tam olarak örtüşmeyebilir.
+    
+    3.Wi-Fi ve Hücresel Sinyaller
+        Cihaz, çevresindeki Wi-Fi ağları ve hücresel sinyallerin gücünü ölçerek konumunu tahmin etmeye çalışır. 
+        Bu yöntem, özellikle kapalı alanlarda GPS sinyalinin zayıf olduğu durumlarda faydalı olabilir. 
+        Ancak, bu yöntem de tek başına yeterli olmaz, çünkü sinyal gücü çevresel faktörlerden etkilenebilir ve doğruluğu sınırlı olabilir.
+    
+    4.Machine Learning (Makine Öğrenimi)    
+        Cihaz, geçmiş konum verilerini ve hareket desenlerini analiz ederek gelecekteki konumunu tahmin etmeye çalışır. 
+        Bu yöntem, özellikle belirli bir ortamda sıkça kullanılan cihazlar için faydalı olabilir, ancak genel olarak tek başına yeterli olmaz.  
+    
+    5.Sensör Füzyonu
+        Cihaz, yukarıda bahsedilen yöntemlerin verilerini birleştirerek daha doğru bir konum tahmini yapmaya çalışır.
+        Bu yöntem, her bir yöntemin zayıf yönlerini telafi etmeye çalışır ve daha güvenilir bir konum tahmini sağlayabilir.
+
+Bu yöntemler, GPS sinyalinin zayıf olduğu veya hiç olmadığı durumlarda cihazın konumunu tahmin etmek için kullanılır. 
+Ancak, her bir yöntemin kendi sınırlamaları vardır ve genellikle birden fazla yöntemin birleştirilmesiyle daha doğru sonuçlar elde edilir.         
+
+
+    

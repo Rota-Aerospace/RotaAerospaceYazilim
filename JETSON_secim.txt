@@ -1,0 +1,18 @@
+EKRAN KARTLARI HAKKINDA:
+    İlk olrak bizim seçebileceğimiz 15k-70k bütçe ile öne çıkana modeller şu şekilde:
+    1-Orin NX 16 GB
+    2-Orin Nano 8GB
+    3-Xavier NX
+    4-AGX Xavier
+    (katmıyorum AGX Orin fiyatı en düşük 105k)
+
+        Bu hazır HYS(Hazır Yapay Zeka Setlerinden) Xavier 12 Nanometre ve Volta teklonojisini kullanılıyor. 48 Tensor Cores ve 21 TOPS gücüne sahiptir fakat teklonojisi çok iyi olmadığı 
+        için güncel Nesne Algılama Algoritmalarıyla birlikte iyi bir şekilde çalışamamaktadırlar.
+
+        Orin NX ve Nano serisinde ise yeni Ampere mimarisi ve 32 tensor çekirdeğine sahipler. Fakat Orin NX 8GB 70TOPS'a sahip 16Gb olan modeli ise 100TOPS'a sahip.
+        Fiyat olarak bütçe 60 ila 70'dan daha düşük olması durumunda Orin NX in 8GB'modeline bakacak olursak güncel YOLO gibi Nesne Tanıma Algoritmalarıyla beraber 640x640 çözünürlükte 
+        güzel performans sergilemektedirler.
+
+    SONUÇ:
+        Fiyat ve performans olarak Orin NX 16GB'lik modelini almamız ana kamera dışında yere bakan mesafe için kullanmamız durmunda da 2 veya 3 kamerayı rahat bir şekilde 
+        kullanabilmemizi de sağlayaktır.

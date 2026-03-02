@@ -1,0 +1,57 @@
+Algoritmalar:
+    1. YOLO (You Only Look Once)
+    Özellik: Görüntüyü tek bir geçişte (pass) işler.
+    Hız: Çok hızlıdır, gerçek zamanlı (real-time) uygulamalar için idealdir.
+    Yaklaşım: Görüntüyü bir ızgaraya (grid) böler ve aynı anda hem sınırlayıcı kutuları (bounding boxes) hem de sınıf olasılıklarını tahmin eder.
+    Kullanım Alanı: Otonom araçlar, video gözetimi.
+
+    2. SSD (Single Shot MultiBox Detector)
+    Özellik: YOLO gibi tek aşamalıdır ancak farklı ölçeklerdeki nesneleri tespit etmek için özellik haritaları (feature maps) kullanır.
+    Hız: Çok hızlıdır, küçük nesneleri algılamada YOLOnun eski sürümlerine göre daha iyi sonuç verebilir.
+    Yaklaşım: Farklı katmanlardan gelen bilgileri birleştirerek tahminde bulunur.
+
+    3. R-CNN (Region-based CNN) Ailesi
+    Bu aile, doğruluğu artırmak için aşamalı bir yaklaşım kullanır.
+    R-CNN: Önce nesne olabilecek bölgeleri (proposals) önerir, sonra bunları sınıflandırır. Yavaştır.
+    Fast R-CNN: Bölge önerilerini daha verimli işler.
+    Faster R-CNN: Bölge öneri adımını da sinir ağı içine alarak hızı ve doğruluğu artırır.
+
+    4. RetinaNet
+    Özellik: "Focal Loss" adında özel bir kayıp fonksiyonu kullanır.
+    Yaklaşım: Arka plan ile nesne arasındaki dengesizliği (nesne az, arka plan çok olması durumu) çözmeye odaklanır.
+    Denge: Tek aşamalı algoritmaların hızını, iki aşamalıların (R-CNN gibi) doğruluğuyla birleştirmeyi hedefler.
+
+Eğitimleri:
+    
+
+
+
+
+Kamera Kalibrasyon Yöntemleri:
+    1. Zhangs Method
+    Sanranç tahtası gibi damalı bir yüzeyde yapılan yöntemdir.
+
+    2. Tsais Method
+    3D bir nesnenin farklı açılardan görüntülenmesiyle yapılan yöntemdir.
+    MATLABDA bunun için kullanılan bir yöntem vardır 
+
+    3. Heikkiläs Method
+    Sanranç tahtası gibi damalı bir yüzeyde alınan görünütünü residmeki ve 3d modeldeki görünütüsünü karşılaştırıp
+    opencvdeki bir fonksiyonla yapılmasıyla kullanılan bir yöntemdir.
+
+Filtering:
+    1. Düzleştirme (Smoothing) ve Bulanıklaştırma (Blurring)
+    Amaç görüntüdeki gürültüyü (noise) azaltmak veya görüntüyü yumuşatmaktır.
+    
+    2. Kenar Belirleme (Edge Detection)
+    Amaç görüntüdeki nesnelerin sınırlarını bulmaktır. Bu, nesne algılama için kritik bir ön işlemedir.
+
+    3. Keskinleştirme (Sharpening)
+    Amaç kenarları daha belirgin hale getirerek görüntüyü daha net göstermektir.
+
+    4. Morfolojik İşlemler (Morphological Operations)
+    Şekil tabanlı özelliklere dayalı filtrelemedir. Genellikle ikili (binary - siyah/beyaz) görüntülerde kullanılır.
+    Erozyon (Erosion): Nesneleri küçültür veya inceltir. Küçük gürültü noktalarını yok eder.
+    Genişleme (Dilation): Nesneleri büyütür. Küçük delikleri kapatır.
+    Açma (Opening): Önce erozyon sonra genişleme yapar. Nesne dışındaki gürültüyü temizler.
+    Kapatma (Closing): Önce genişleme sonra erozyon yapar. Nesne içindeki delikleri kapatır.

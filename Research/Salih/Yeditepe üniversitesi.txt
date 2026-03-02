@@ -1,0 +1,61 @@
+Yeditepe Üniversitesi 
+
+6 Pervaneli drone 
+
+Ardu pilot kullanmışlar
+simülasyon için gazebo kullanmışlar 
+
+haritalama için opencv ve numpy kütüphanelerini kullanmışlar
+Tek bir harita oluşturmuşlar.
+Haritalama yaparken 4 köşe nokta belirleyip dornu onun üstünden otomatik tarama yaptırmışlar
+belirli bir yükseklikte kalıp aşağı da kendilerine yol çizip o şekilde dopru birleştirme yapmışlar.
+
+HARİTALAMANIN DOĞRU OLMASI İÇİN ÇOK FAZLA UÇUŞ YAPMIŞLAR.
+
+nesne tanımak için 
+
+Yolo v8 kullanmışlar (en iyisi buymuş ihalar için çünkü bilgisayarı hem yormadan hem de verimli çalışırmış.)
+eğer yolo %7 den daha fazla tanımışsa bırakma mekanizmasını çalıştırmışlar.
+tüm tanımayı drone a yaptırmışlar yer kontrol istasyonunu karıştırmamışlar.
+
+pyproj kütüphanesini kullanmışlar bu kütüphane nesnenin kordinatını buluyormuş
+
+YER KONTROL İSTASYONU İÇİN KENDİ YAZILIMLARINI GELİŞTİRMİŞLER HERHANGİ BİR BİÇİMDE MİSSİON PLANER KULLANMAMIŞLAR.
+
+
+TEST AŞAMASI
+
+4 farlı test yapmışlar 
+
+1)simülasyon
+2)bileşen testleri
+3)alt sistem testleri 
+4)tam uçuş testi
+
+
+1) SİMÜLASYON 
+
+GAZEBO KULLANMIŞ
+
+önce kod yazmışlar 
+git e aktarmışlar
+gazeboda test edip
+değererlendirme yapıp bir daha git e atmışlar.
+
+
+BÜTÜN HARİTALAMA NESNE TANIMA İŞLEMLERİNİ GAZEBODA TEST ETMİŞLER.
+
+
+
+
+
+360 lidar kullanmışlar
+
+
+orange cube kullanmışlat.
+raspeery pi 5 kullanmışlar 
+c++ ve python ile geliştirmişler 
+
+
+mavsdk kullanmışlar
+

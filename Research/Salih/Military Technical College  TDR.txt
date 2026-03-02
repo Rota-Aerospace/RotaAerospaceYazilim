@@ -1,0 +1,21 @@
+Military Technical College 
+
+SABİT KANAT
+
+(rapor hiç detaylı değil beğenmedim)
+
+Nesne tespiti için 
+
+Yolo v9 kullanmışlar
+görüntü birleştirmak içinde autopano giga diye birşey kullanmışlar
+
+autopano giga nın avantajı hem erhangi bir coğrafi konum
+verisi gerektirmeden, üst üste binen bölgeleri
+olan görüntüleri sorunsuz bir şekilde birleştiip aynı zamanda da bunu diğerleri gibi çok emek vermeden yaptırıyormuş.
+
+yer kontrol için mission planner kullanmışlar.
+
+
+pixhawk cube black kullanmışlar 
+herhangi bir bilgisayar belitmemişler raporda görsellerde yerdeki bir bilgisayar üstünden görüntü işleme yaptıklarını belirtmişler.
+

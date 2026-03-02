@@ -1,0 +1,20 @@
+University of Wollongong, Wollongong, Australia TDR
+
+DRONE
+
+Jetson orin nx 16 GB ile birlikte Yuan AIR6N0-C-
+MB NX kullanmışlar (Bu kart jetsona ekstra giriş çıkış prtu sağlayan özel bir kartmış avantajı ise daha büyük kartlar hem çok ağır hem çok yer kaplamış bunlarda bu şekilde bir çözüm bulmuşlar.)
+
+Uçuş kartı olarakta speedy bee f405 kullanmışlar.(FPV kartı normalde ama bu arkadaşlar bunu kullanmayı uygun görmüşler.)
+
+YOLO V5 kullanmışlar.
+
+yazılım olarakta drone kit yani sdk kullanmışlar (MAVROS gibi birşey buda)
+
+bağlantıyı 4g modem üstünden sağlamışlar.
+
+MAVPROXY diye bir yazılım kullanmışlar.
+bunun güvenliği içinde ZeroTier vpn kullanmışlar.
+
+kamera olarak ise SIYI A8 Mini bunu kullanmışlar 4 k görüntü veriyormuş ve gimbalı varmış 
+

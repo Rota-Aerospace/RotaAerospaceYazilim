@@ -1,0 +1,16 @@
+University of California, Berkeley TDR
+
+6 motorlu drone 
+
+6 motorlu olmasının sebebi 2 motora bişey olsa geri kalan 4 motoru ile uçmaya devam ediyormuş
+
+Uçuş kartı olarak orange cube kullanmışlar.
+bilgisayar olarak ise nvidia jetson orin kullanmışlar.
+kamera olarakta SIYI ZR10 kullanmışlar.(30x zoom u ve gimbalı varmış çok uzaktan nesne tanıma yapabiliyorlarmış bu sayede.)
+
+yazılım olarak ardupilot sıtl kullanmışlar.
+yer kontrol istasyonu içiinde mission planner kullanmışlar.
+
+nesne tespiti için ise yolo v10 kullanmışlar(geçen sene kullandıklarıyla kıyaslayıp bunun yüzde 15 daha verimli olduğuna kanaat getirmişler.)
+
+Opencv nin yanında haritalama için SIFT diye bir kütüphane kullanmışlar bu kütüphane çekilen bir binayı alttanda çeksen üstten de çeksen aynı bina olduğunu algılıyor bu sayede görüntü birleştirirken bozulma gibi problemler yaşamıyorlar.
